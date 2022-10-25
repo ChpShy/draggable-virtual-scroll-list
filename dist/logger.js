@@ -73,8 +73,6 @@ var Logger = /** @class */ (function () {
 export { Logger };
 export default new Logger({
     out: window.console,
-    level: (process && process.env
-        && process.env.NODE_ENV === 'development')
-        ? Level.DEBUG : Level.ERROR
+    level: Level.ERROR
 });
 //# sourceMappingURL=logger.js.map
