@@ -1,6 +1,6 @@
 {
   "name": "draggable-virtual-list-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fork from tangbc/vue-virtual-scroll-list",
   "main": "dist/index.js",
   "scripts": {
