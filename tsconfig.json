@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
+    "strict": false,
     "declaration": true,
     "declarationDir": "./types/",
     "outDir": "./dist/",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "sourceMap": true,
     "target": "es5",
     "module": "es2015",
@@ -14,10 +15,9 @@
       "dom"
     ],
     "experimentalDecorators": true,
-    "esModuleInterop": true
+    "esModuleInterop": false
   },
-  "include": ["src"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules/"],
   "files": [
     "src/index.ts",
     "src/broker/index.ts",

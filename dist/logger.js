@@ -66,7 +66,7 @@ var Logger = /** @class */ (function () {
         this.out.error.apply(this.out, this.withPrefix(args));
     };
     Logger.prototype.withPrefix = function (args) {
-        return ["[" + NAME + "] "].concat(args);
+        return ["[".concat(NAME, "] ")].concat(args);
     };
     return Logger;
 }());
