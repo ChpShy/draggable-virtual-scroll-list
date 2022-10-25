@@ -15,8 +15,9 @@ module.exports = {
     extensions: [ '.tsx', '.ts', '.js' ],
   },
   output: {
-    filename: 'bundle.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
+    libraryTarget: "commonjs"
   },
   externals: {
     vue: {
