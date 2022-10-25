@@ -4,7 +4,7 @@
     "declaration": true,
     "declarationDir": "./types/",
     "outDir": "./dist/",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "target": "es5",
     "module": "es2015",
@@ -22,7 +22,5 @@
     "src/index.ts",
     "src/broker/index.ts",
     "src/broker/draggable-policy.ts",
-    "types/vuedraggable.d.ts",
-    "types/vue-virtual-scroll-list.d.ts"
   ]
 }
