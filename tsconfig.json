@@ -3,7 +3,7 @@
     "declaration": true,
     "declarationDir": "./types/",
     "outDir": "./dist/",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "target": "es5",
     "module": "es2015",
@@ -16,6 +16,8 @@
     "experimentalDecorators": true,
     "esModuleInterop": true
   },
+  "include": ["src"],
+  "exclude": ["node_modules"],
   "files": [
     "src/index.ts",
     "src/broker/index.ts",

@@ -17,9 +17,6 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'DraggableVirtualList',
-    libraryExport: 'default',
-    libraryTarget: 'umd',
   },
   externals: {
     vue: {

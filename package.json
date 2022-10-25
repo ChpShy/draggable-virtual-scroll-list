@@ -1,10 +1,10 @@
 {
-  "name": "vue-draggable-virtual-scroll-list",
-  "version": "0.0.5",
-  "description": "SortableJS/Vue.Draggable + tangbc/vue-virtual-scroll-list",
+  "name": "draggable-virtual-list-vue",
+  "version": "0.0.1",
+  "description": "fork from tangbc/vue-virtual-scroll-list",
   "main": "dist/bundle.js",
   "scripts": {
-    "build": "tsc --build tsconfig.json && webpack --config webpack.production.js",
+    "build": "webpack --config webpack.production.js",
     "watch": "webpack --watch --config webpack.development.js",
     "test": "jest"
   },
